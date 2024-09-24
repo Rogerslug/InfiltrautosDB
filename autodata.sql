@@ -1,4 +1,4 @@
-INSERT INTO `auto` (`ID`, `marca`, `modelo`, `año`, `filtro`) VALUES
+INSERT INTO `Autos` (`ID`, `marca`, `modelo`, `año`, `ID_Filtros`) VALUES
 (1, 'BMW', '318Ti', '1996', 1),
 (2, 'BMW', '318Ti', '1997', 1),
 (3, 'BMW', '318Ti', '1998', 1),
