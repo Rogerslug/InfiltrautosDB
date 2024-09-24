@@ -1,4 +1,4 @@
-INSERT INTO `Filtros` (`ID`, `nombre`, `material`, `stock`, `img`, `Precio`, `tipo_filtro`, `sku`) VALUES
+INSERT INTO Filtros (ID, nombre, material, stock, img, Precio, tipo_filtro, sku) VALUES
 (1, 'Filtro de Aire Fram CA8007', 'Fibra Sintetica', 100, '1 Filtro de Aire Fram CA8007.jpg', 70, 'Rectangular', 1),
 (2, 'Filtro de Aire Fram CA10217', 'Fibra Sintetica', 100, '2 Filtro de Aire Fram CA10217.avif', 74, 'Cilindrico', 2),
 (3, 'Filtro de Aire STP ST9287', 'Fibra Sintetica', 100, '3 Filtro de Aire STP ST9287.avif', 70, 'Rectangular', 3),
