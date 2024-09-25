@@ -1,9 +1,10 @@
 IF NOT EXISTS (CREATE DATABASE `Infiltrautos`) ;
 
-CREATE TABLE `auto` (
-  `ID` int(11) NOT NULL,
-  `marca` varchar(15) DEFAULT NULL,
-  `modelo` varchar(40) DEFAULT NULL,
-  `año` varchar(10) DEFAULT NULL,
-  `filtro` int(11) DEFAULT NULL
-) ENGINE=MyISAM;
+CREATE TABLE Autos (
+  ID serial NOT NULL primary key ,
+  marca character(15) DEFAULT NULL,
+  modelo character(40) DEFAULT NULL,
+  año character(10) DEFAULT NULL,
+  ID_Filtros int DEFAULT NULL,
+   CONSTRAINT fk_Filtros FOREIGN KEY (ID_Filtros) REFERENCES Filtros(ID)
+);

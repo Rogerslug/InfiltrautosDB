@@ -1,4 +1,4 @@
-INSERT INTO `auto` (`ID`, `marca`, `modelo`, `año`, `filtro`) VALUES
+INSERT INTO Autos (ID, marca, modelo, año, ID_Filtros) VALUES
 (1, 'BMW', '318Ti', '1996', 1),
 (2, 'BMW', '318Ti', '1997', 1),
 (3, 'BMW', '318Ti', '1998', 1),
@@ -1192,7 +1192,7 @@ INSERT INTO `auto` (`ID`, `marca`, `modelo`, `año`, `filtro`) VALUES
 (1283, 'Nissan/Datsun', 'March Sense', '2012', 24),
 (1284, 'Nissan/Datsun', 'March Sense', '2013', 24),
 (1285, 'Nissan/Datsun', 'March Sense', '2014', 24);
-INSERT INTO `auto` (`ID`, `marca`, `modelo`, `año`, `filtro`) VALUES
+INSERT INTO auto (ID, marca, modelo, año, filtro) VALUES
 (1286, 'Nissan/Datsun', 'March Sense', '2015', 24),
 (1287, 'Nissan/Datsun', 'March Sense', '2016', 24),
 (1288, 'Nissan/Datsun', 'March Sense', '2017', 24),

@@ -1,10 +1,11 @@
-CREATE TABLE `filtros` (
-  `ID` int(11) NOT NULL,
-  `nombre` varchar(60) NOT NULL,
-  `material` varchar(20) NOT NULL,
-  `stock` int(11) NOT NULL,
-  `img` blob NOT NULL,
-  `Precio` int(11) NOT NULL,
-  `tipo_filtro` varchar(25) NOT NULL,
-  `sku` int(11) NOT NULL
-) ENGINE=MyISAM;
+IF NOT EXISTS (CREATE DATABASE `Infiltrautos`) ;
+CREATE TABLE Filtros (
+  ID serial NOT NULL primary key ,
+  nombre varchar(60) NOT NULL,
+  material varchar(20) NOT NULL,
+  stock int NOT NULL,
+  img bytea NOT NULL,
+  Precio int NOT NULL,
+  tipo_filtro varchar(25) NOT NULL,
+  sku character(10) NOT NULL unique
+);
