@@ -10,6 +10,6 @@ CREATE TABLE Filtros (
   img varchar(255) NOT NULL,
   precio int NOT NULL,
   tipo_filtro varchar(255) NOT NULL,
-  descripcion varchar(255) NOT NULL,
+  descripcion text NOT NULL,
   sku varchar(255) NOT NULL
 ) ENGINE=MyISAM;
