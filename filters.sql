@@ -1,4 +1,5 @@
 IF NOT EXISTS (CREATE DATABASE `Infiltrautos`) ;
+
 CREATE TABLE Filtros (
   ID serial NOT NULL primary key ,
   nombre varchar(60) NOT NULL,
