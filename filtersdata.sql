@@ -40,13 +40,13 @@ INSERT INTO Filtros (ID, nombre, material, stock, img, Precio, tipo_filtro, sku)
 (39, 'Filtro de Aire STP ST3373', 'Fibra Sintetica', 100, '39 Filtro de Aire STP ST3373.avif', 119, 'Rectangular', 39),
 (40, 'Filtro de Aire STP ST9332', 'Fibra Sintetica', 100, '40 Filtro de Aire STP ST9332.avif',119 , 'Rectangular', 40),
 (41, 'Filtro de Aire STP ST3647', 'Fibra Sintetica', 100, '41 Filtro de Aire STP ST3647.avif', 119, 'Dona', 41),
-(42, 'Filtro de Aire STP ST353', 'Fibra Sintetica', 100, '42 Filtro de Aire STP ST353.avif', 119, 'Dona', 42),
-(43, 'Filtro de Aire Valucraft VA9054', 'Fibra Sintetica', 100, '43 Filtro de Aire Valucraft VA9054.avif', 84, 'Rectangular', 43),
-(44, 'Filtro de Aire STP ST7365', 'Fibra Sintetica', 100, '43 Filtro de Aire STP ST7365.avif', 119, 'Rectangular', 44),
-(45, 'Filtro de Aire Valucraft VA7597', 'Fibra Sintetica', 100, '44 Filtro de Aire Valucraft VA7597.aivf',119 , 'Rectangular', 45),
-(46, 'Filtro de Aire STP ST50017', 'Fibra Sintetica', 100, '46 Filtro de Aire STP ST50017.avif', 119, 'Rectangular', 46),
-(47, 'Filtro de Aire STP ST10242', 'Fibra Sintetica', 100, '47 Filtro de Aire STP ST10242.avif', 119, 'Rectangular', 47),
-(48, 'Filtro de Aire STP ST8970', 'Fibra Sintetica', 100, '48 Filtro de Aire STP ST8970.avif',119 , 'Rectangular', 48),
-(49, 'Filtro de Aire Valucraft VA3901', 'Fibra Sintetica', 100, '49 Filtro de Aire Valucraft VA3901.avif',119 , 'Rectangular', 49),
-(50, 'Filtro de Aire Valucraft VA8243', 'Fibra Sintetica', 100, '50 Filtro de Aire Valucraft VA8243.avif',119 , 'Rectangular', 50);   
+(42, '', '', 100, '', , '', 42),
+(43, '', '', 100, '', , '', 43),
+(44, '', '', 100, '', , '', 44),
+(45, '', '', 100, '', , '', 45),
+(46, '', '', 100, '', , '', 46),
+(47, '', '', 100, '', , '', 47),
+(48, '', '', 100, '', , '', 48),
+(49, '', '', 100, '', , '', 49),
+(50, '', '', 100, '', , '', 50);   
 

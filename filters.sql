@@ -1,12 +1,15 @@
-IF NOT EXISTS (CREATE DATABASE `Infiltrautos`) ;
+CREATE DATABASE IF NOT EXISTS Infiltrautos;
+
+USE Infiltrautos;
 
 CREATE TABLE Filtros (
-  ID serial NOT NULL primary key ,
+  id_filtro int NOT NULL AUTO_INCREMENT PRIMARY KEY,
   nombre varchar(60) NOT NULL,
-  material varchar(20) NOT NULL,
+  material varchar(60) NOT NULL,
   stock int NOT NULL,
-  img bytea NOT NULL,
-  Precio int NOT NULL,
-  tipo_filtro varchar(25) NOT NULL,
-  sku character(10) NOT NULL unique
-);
+  img varchar(255) NOT NULL,
+  precio int NOT NULL,
+  tipo_filtro varchar(255) NOT NULL,
+  descripcion text NOT NULL,
+  sku varchar(255) NOT NULL
+) ENGINE=MyISAM;
